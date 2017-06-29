@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-06-29T21:39:29" hostname="epicodus-2.local" time="0.001">
+  <properties/>
+  <testcase name="initializeGame_printOutWordFromArray_at" classname="GameTest" time="0.0"/>
+  <testcase name="replaceLetters_replaceADashwithH_3dashes1H2dashes" classname="GameTest" time="0.0"/>
+  <testcase name="getWordLength_returnNumberOfChars_2" classname="GameTest" time="0.0"/>
+  <testcase name="isLetterPresent_returnBoolean_true" classname="GameTest" time="0.0"/>
+  <testcase name="returnDashes_returnSameNumberOfDashesAsLetters_4dashes" classname="GameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
