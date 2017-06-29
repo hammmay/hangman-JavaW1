@@ -1,0 +1,63 @@
+HANGMAN:
+
+- word is chosen - program must choose word randomly from an array of words
+- display the placements of letters for each word like “_ _ _ _”
+
+———
+
+- WHILE hidden fields remain OR counter is not zero…..
+- user prompted to guess a letter
+- input received must be tested against letters in the word
+- IF : no match, then a counter -1; (if started at 4 fields, output “You have 3 guesses left”)
+- IF : yes match, reveal the match(es) on the screen
+- Prompt for next letter choice
+- 
+
+———
+- IF counter is zero - “output you LOST”
+- ELSE “you WON”
+
+————————
+
+Tests:
+
+- word is chosen randomly by computer from the word array
+    - start with one word in word array
+    - then test multiple words in random way (possibly all three words have same number of letters each)
+- terminal displays correct number of characters
+    - start with a single-letter word
+    - then small word like “is” or “hat”
+    - then longer words
+- test to find match for letters in word vs. input from test
+- display the match, give count for remaining turns
+- test if not a match
+    - should decrement count of remaining turns and display this
+- test for continued prompts
+- test for LOSE condition being met
+- test for WIN condition being met
+- test the outcome determined - win or lose
+
+
+
+
+
+- send method 2 arguments — original word, and chosen letter.
+- output should be all dashes (same length of word), but replace dashes when instances of chosen letter are present
+
+
+
+
+
+public String replaceLetters(String inputWord, String guessedLetters) {
+	String outputWord = “”;
+	//create a new Array out of guessedLetters - each element is one of the letters
+
+	for(int k=0; k < guessLettersArray.length(); k++) {
+		for(int i=0; inputWord.length(); i++) {
+			if (inputWord.regionMatches(i, guessLettersArray[k], 0, guessLettersArray[k].length())
+				guessLettersArray[k]
+
+	
+
+
+
